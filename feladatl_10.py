@@ -83,8 +83,11 @@ up()
 
 goto(-420,-50)
 
+<<<<<<< HEAD
 trikolor("red","white","green")
 
+=======
+>>>>>>> 29cd900d0df261c384d82eb025550b114da755b3
 down()
 
 dikolor("white","red")
