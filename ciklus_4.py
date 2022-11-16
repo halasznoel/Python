@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2bd3e4fb405feb048a600f997a30c45ff95eb75
 # while magyarul azt jelenti: amíg
 # 1. példa
   
@@ -45,6 +48,7 @@ while szo != '':
     szo = input('Adj meg szavakat! Ha kilépnél, aszó helyett csak egy ENTER-t üss! ')    
 
 print('Program vége!')    
+<<<<<<< HEAD
 =======
 import random
 print("1.")
@@ -86,3 +90,5 @@ for i in range(20):
 print("")
 print(f"{len(harmas)}db 3-mal osztható szám van.")
 >>>>>>> 29cd900d0df261c384d82eb025550b114da755b3
+=======
+>>>>>>> d2bd3e4fb405feb048a600f997a30c45ff95eb75
