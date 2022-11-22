@@ -1,0 +1,46 @@
+ev = [2984,2348,2069,2204,2418,2037,2092,2495,2487,2827,2305,2650]
+ev = False
+if len(ev) == 12:
+ev = True
+	print(ez egy év adatsora)
+else:
+	print(ez nem egy év adatsora)
+
+# legnagyobb
+legnagyobb = ev[0]
+for szám in ev:
+	if szám > legnagyobb:
+		legnagyobb = szám
+print(legnagyobb: {legnagyobb})
+
+# legkisebb
+legkisebb = ev[0]
+for szám in ev:
+	if szám < legkisebb:
+legkisebb = szám
+print(legkisebb: {legkisebb})
+
+osszeg = 0
+for szám in ev:
+	osszeg += szám
+print(osszeg)
+
+count = 0
+for szám in ev:
+	if szám > 2400:)
+		count += 1
+print(Ennyi van: {count})
+
+# legnagyobb helye
+ker = legnagyobb
+i = 0
+while ev[i] != ker:
+	i += 1
+print(legnagyobb helye: {i+1})
+
+# legnagyobb helye
+ker = legkisebb
+i = 0
+while ev[i] != ker:
+	i += 1
+print(legkisebb helye: {i+1})
