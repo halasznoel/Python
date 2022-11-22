@@ -1,0 +1,8 @@
+#5c
+# Naponta legalább 2,5 liter folyadékot kell fogyasztanunk,
+# és ivásból nem vagyunk valami jók.  Írjunk programot,
+# amelyik bekéri, hogy egy-egy alkalommal hány decit ittunk!
+# Teszi mindezt addig, amíg 0 értéket nem adunk meg.
+# Minden bekéréskor kiírja, hogy addig hány litert ittunk összesen,
+# és ha elérjük a 2,5 litert, akkor erről is megemlékezik.
+# 3,5 liter fölött kilép, szépen elbúcsúzva tőlünk.
