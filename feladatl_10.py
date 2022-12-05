@@ -83,6 +83,8 @@ up()
 
 goto(-420,-50)
 
+trikolor("red","white","green")
+
 down()
 
 dikolor("white","red")
