@@ -1,0 +1,5 @@
+Legnagyobb fakitermelés mennyisége: 99
+Legkisebb fakitermelés mennyisége: 52
+12 alkalommal volt a fakitermelés mennyisége 82 m3 felett.
+A fakitermelés mennyisége október 20.-án: 70 m3
+Átlag: 78.35483870967742
