@@ -1,9 +1,9 @@
 count = int(input("Hány órás visszaszámlálást tervezünk? "))
 idő = count
 while count > 0:
-    print(count)
+    print(f"Visszaszámlálás: {count}")
     count -= 1
-    fuggesztes = str(input("Fel kell függeszteni a visszaszámlálást (i/n)?"))
+    fuggesztes = str(input("Fel kell függeszteni a visszaszámlálást (i/n)? "))
     if fuggesztes == "n":
         continue
     else:
