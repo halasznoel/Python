@@ -1,13 +1,16 @@
-
-def hazai(ertek):
-    if ertek <= 599:
-        return (f"{vasarlo} magyar gyümölcsöt vásárolt.")
+def szarmazas(kod):
+    hazai = 599
+    if kod == hazai:
+        return True
     else:
-        return (f"{vasarlo} nem magyar gyümölcsöt vásárolt.")
-
-gyumolcs = None
-gyumolcs = int(input("Add meg a gyümölcs vonalkódjának első három számát! "))
-vasarlo = input("Add meg a vásárló nevét! ")
-while gyumolcs == '':
-    int(input("Add meg a gyümölcs vonalkódjának első három számát! "))
-hazai(gyumolcs)
+        return False
+while True:
+    neve = input("Add meg a vásárló nevét! ")
+    if neve == "":
+        break
+    vonalkod = int(input("Add meg a gyümölcs vonalkódjának első három számát ! "))
+    if szarmazas(vonalkod):
+        nemzet = "magyar"
+    else:
+        nemzet = "nem magyar"
+    print(f"{neve} {nemzet} gyümölcsöt vásárolt.")
