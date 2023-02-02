@@ -1,1 +1,1 @@
-A legnehezebb az állatfaj: <allat_alap.Állatok object at 0x000001DB4FC0BEE0> melynek tömege: 500 kg.
+A(z) a a legnehezebb.
