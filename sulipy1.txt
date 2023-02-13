@@ -1,0 +1,5 @@
+kerdes = input("Helló! Jó napod van? (i/n) ")
+if kerdes == 'i':
+    print("Örülök neki!")
+else:
+    print("Ezt sajnálattal hallom :(")
