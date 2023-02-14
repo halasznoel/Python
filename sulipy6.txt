@@ -6,5 +6,5 @@ while True:
         print("Eltaláltad!")
         break
     else:
-        print("Nem találtad el! xD")
+        print("Nem találtad el!")
         continue
