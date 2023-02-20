@@ -1,8 +1,10 @@
-Kérem adjon meg egy földrajzi hely nevet: Randomhely
-Kérem adjon meg a tengerszint feletti magasságát méterben: 800.0
-Kérem adjon meg egy földrajzi hely nevet: igen
-Kérem adjon meg a tengerszint feletti magasságát méterben: 1000.0
-Kérem adjon meg egy földrajzi hely nevet: nem
-Kérem adjon meg a tengerszint feletti magasságát méterben: 222.0
+Kérem adjon meg egy földrajzi hely nevet: Magyar Alföld
+Kérem adjon meg a tengerszint feletti magasságát méterben: 180.0
+Kérem adjon meg egy földrajzi hely nevet: Dunántúli dombság
+Kérem adjon meg a tengerszint feletti magasságát méterben: 250.0
+Kérem adjon meg egy földrajzi hely nevet: Pó síkság
+Kérem adjon meg a tengerszint feletti magasságát méterben: 173.0
 Kérem adjon meg egy földrajzi hely nevet: 
-Randomhely (800m) = középhegységigen (1000m) = középhegységnem (222m) = dombság
+Magyar Alföld (180m) = alföld
+Dunántúli dombság (250m) = dombság
+Pó síkság (173m) = alföld
