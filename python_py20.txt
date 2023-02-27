@@ -1,0 +1,6 @@
+lista = []
+nev = None
+while nev != "":
+    nev = input("Adjon meg keresztneveket! ")
+    lista.append(nev)
+print(*lista, sep="\n")

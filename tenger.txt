@@ -1,10 +1,1 @@
-Kérem adjon meg egy földrajzi hely nevet: Magyar Alföld
-Kérem adjon meg a tengerszint feletti magasságát méterben: 180.0
-Kérem adjon meg egy földrajzi hely nevet: Dunántúli dombság
-Kérem adjon meg a tengerszint feletti magasságát méterben: 250.0
-Kérem adjon meg egy földrajzi hely nevet: Pó síkság
-Kérem adjon meg a tengerszint feletti magasságát méterben: 173.0
 Kérem adjon meg egy földrajzi hely nevet: 
-Magyar Alföld (180m) = alföld
-Dunántúli dombság (250m) = dombság
-Pó síkság (173m) = alföld

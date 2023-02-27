@@ -1,0 +1,14 @@
+while True:
+    try:
+        szam = int(input("Adj meg egy páros számot: "))
+        if szam % 2 == 0:
+            break
+        else:
+            print("A megadott szám páratlan. Adj meg egy páros számot!")
+    except ValueError:
+        print("Adj meg egy egész számot!")
+
+for i in range(szam // 2):
+    print("O " * (i + 1))
+for i in range(szam // 2, 0, -1):
+    print("O " * (i))
