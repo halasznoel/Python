@@ -1,0 +1,42 @@
+Születések száma Vas megyében
+
+A vas.txt ilyen sorokat tartalmaz:
+1-980227-1258
+2-990926-7743
+2-991025-3713
+4-000405-6342
+3-010416-2982
+2-990630-5121
+2-980402-7858
+3-001201-2037
+
+A következő feladatban több, egész évet felölelő időszakban vizsgáljuk Vas megyében az élve születések számát. A forrásállományba (vas.txt) az itt született csecsemők személyi azonosítója (személyi száma) került (az azonosítók fiktívek). Az azonosítók képzésének a szabálya 1997. január 1-jétől megváltozott, ezért a forrás állományban csak 1997-es vagy későbbi személyi azonosítók lehetnek. A megoldás során vegye figyelembe a következőket! • A képernyőre írást igénylő részfeladatok eredményének megjelenítése előtt írja a képernyőre a feladat sorszámát (például:3. feladat:)!
+• Az egyes feladatokban a kiírásokat a minta szerint készítse el!
+• Az ékezetmentes kiírás is elfogadott.
+• A program megírásakor a fájlban lévő adatok helyes szerkezetét nem kell ellenőriznie, feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak megfelelnek.
+• Megoldását úgy készítse el, hogy az azonos szerkezetű, de tetszőleges bemeneti adatok mellett is helyes eredményt adjon!
+1. A feladat megoldásához hozzon létre grafikus vagy konzolalkalmazást (projektet) Vasmegye azonosítóval!
+2. A személyi szám úgynevezett beszélő szám", azaz struktúrája van. 11 decimális számjegyből áll és M-ÉÉHHNN-SSSK alakú:
+•
+Az M számjegy alapvetően a nemre és a születési év első két jegyére utal:
+Születési év és nem
+1997-1999 20xx
+férfi no férfi no
+1
+2 3 4
+• Az ÉÉHHNN számjegyek a születési év utolsó két jegyét, a hónapot és a napot
+kódolják.
+• Az SSS az azonos napon születettek megkülönböztetésére való.
+• A K ellenőrzési célokat szolgál. A többi számjegyből kell képezni. Egyszerűbb hibák, elütések detektálhatók a segítségével.
+Olvassa be a vas.txt állományban lévő adatokat és tárolja el egy olyan adatszerkezetben, amely a további feladatok megoldására alkalmas! A fájlban legfeljebb 20 000 sor lehet!
+3. Készítsen CdvE11 () azonosítóval logikai értékkel visszatérő jellemzőt vagy metódust (függvényt), amely egy személyi azonosítót ellenőriz! Ha függvényt készít, akkor az ellenőrizendő azonosító a függvény paramétere legyen! A metódus térjen vissza igaz értékkel, ha a személyi azonosító helyes, azaz az utolsó számjegye megfelelő! A K-val jelölt utolsó számjegy egy matematikai művelet eredménye. Képlettel kifejezve:
+k11
+(10k1+9k2+8k3+...+1k10) mod 11
+Más szóval az első számjegyet megszorozzuk 10-zel, a másodikat 9-cel s így tovább 1-ig. A szorzatokat összeadjuk, és az eredményt elosztjuk 11-gyel. A maradék lesz a 11. számjegy.
+4. Ellenőrizze az előző feladatban megírt jellemzővel vagy metódussal az azonosítókat! Hibás azonosítók esetén jelezzen a program a minta szerint, és törölje őket az adatszerkezetből (ne számoljon velük a további feladatokban)! Törlés helyett a feladatot úgy is megoldhatja, hogy beolvasáskor nem tárolja a hibás személyi azonosítókat. Ha a 3. feladatot nem tudta megoldani, akkor a fájlban lévő összes azonosítóval dolgozzon a következő feladatokban!
+5. Határozza meg és írja ki a képernyőre a minta szerint, hogy Vas megyében hány csecsemő született a vizsgált időszakban!
+6. Határozza meg és írja ki a képernyőre a minta szerint a fiú csecsemők számát!
+7. Határozza meg és írja ki a minta szerint a vizsgált időszak kezdő és befejező évét! Feltételezheti, hogy az időszak legalább 2 évig tartott.
+8. Döntse el, hogy a szökőnapon (február 24-én) született-e csecsemő! A keresést ne folytassa, ha a választ meg tudja adni! A képernyőre írást a minta szerint végezze! Ebben a feladatban szökőévnek tekintheti az évet, ha az maradék nélkül osztható 4- gyel.
+9. Készítsen statisztikát évek szerint a született gyermekek számáról! A megoldást úgy készítse el, hogy az inputállományba később más évek adatai is bekerülhessenek! A képernyőre írást a minta szerint végezze!
+
