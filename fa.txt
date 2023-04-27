@@ -1,5 +1,32 @@
-Legnagyobb fakitermelés mennyisége: 99
-Legkisebb fakitermelés mennyisége: 52
-12 alkalommal volt a fakitermelés mennyisége 82 m3 felett.
-A fakitermelés mennyisége október 20.-án: 70 m3
-Átlag: 78.35483870967742
+class Fa:
+    def __init__(self, nev, eletkor, termes, kemeny):
+        self.nev = nev
+        self.eletkor = eletkor
+        self.termes = termes
+        self.kemeny = kemeny
+    
+    def elet(self):
+        if self.eletkor > 1 and self.eletkor < 3:
+            return "csemete"
+        elif self.eletkor > 3 and self.eletkor < 5:
+            return "sudÃ¡r"
+        else:
+            return "fa"
+    
+    def kemenyseg(self):
+        if self.kemeny == "puha" or self.kemeny == "Puha":
+            return "puha"
+        else:
+            return "kemÃ©ny"
+
+tÃ¡rolÃ³ = []
+for _ in range(3):
+    nev = input("Adja meg a fa nevÃ©t! ")
+    eletkor = int(input("Adja meg a fa Ã©letkorÃ¡t! "))
+    termes = input("Adja meg a fa termÃ©sÃ©t! ")
+    kemeny = input("Adja meg a fa kemÃ©nysÃ©gÃ©t! ")
+    fa = Fa(nev, eletkor, termes, kemeny)
+    tÃ¡rolÃ³.append(fa)
+
+for fa in tÃ¡rolÃ³:
+    print(f"Fa neve: {fa.nev}, Fa Ã©letkora: {fa.elet()}, TermÃ©s: {fa.termes}, Fa kemÃ©nysÃ©ge: {fa.kemenyseg()}")
