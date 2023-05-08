@@ -4,15 +4,15 @@ def doboz(szál):
     
 def bagó(doboz):
     if doboz > 2:
-        return ("nagy bagós")
+        return ("Maga dízel")
     else:
-        return ("kis bagós")
+        return ("Kis bagós")
 
 nev=None
 
 while True:
     if nev != "":
-        nev=input("Adja meg a nevét! ")
+        nev=input("Adja meg a NEVÉT ")
         szal=int(input("Adja meg, hogy mennyit szív! "))
         if doboz(szal):
             print(nev,bagó(doboz(szal)))
